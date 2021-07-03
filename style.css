@@ -9,7 +9,7 @@ span {
   font-size: 44px;
   font-weight: bold;
 }
-section {
+.flexible-container {
   padding-left: 7%;
   padding-top: 7%;
   display: flex;
@@ -44,4 +44,39 @@ section {
   background-image: url(images/dream-bg.png);
   background-repeat: no-repeat;
   background-position: right;
+}
+.ex {
+  text-align: center;
+  font-size: 45px;
+  font-weight: bold;
+  margin-top: 10%;
+}
+
+.exprience-area {
+  background-image: url(images/exp-bg.png);
+  background-repeat: no-repeat;
+  background-position: left;
+}
+.exprience-item {
+  width: 40%;
+  margin: 2%;
+  padding: 20px;
+  border-radius: 15px;
+  border-left: 10px solid;
+  box-shadow: 5px 5px 20px gray;
+}
+#web-dev1 {
+  border-left: 10px solid;
+  border-image: linear-gradient(rgb(68, 216, 142), rgb(28, 182, 105));
+  border-image-slice: 1;
+}
+
+#web-dev2 {
+  border-left: 10px solid;
+  border-image: linear-gradient(rgb(90, 68, 216), rgb(100, 28, 182));
+  border-image-slice: 1;
+}
+
+footer p {
+  text-align: center;
 }
